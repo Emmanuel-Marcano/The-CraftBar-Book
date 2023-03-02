@@ -1,0 +1,44 @@
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url('https://source.unsplash.com/Lwx-q6OdGAc');
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.cover-container{
+    max-width: 75vw;
+    color:rgba(255, 255, 255, 0.8);
+    text-shadow: 2px 2px 8px #111;
+}
+
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom-color:rgba(255, 255, 255, 0.5);
+}
+
+.mav-link:active{
+    color: white;
+    border-bottom-color: white;
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: #333;
+    text-shadow: none;
+    
+
+
+}
