@@ -1,0 +1,51 @@
+<% layout('layouts/boilerplate') %> 
+
+
+
+<div class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card shadow p-5">
+              <!--  <img class="card-img-top" src="https://res.cloudinary.com/dzbovxcji/image/upload/v1671476347/craftBarBook/findmk4rsjah6vxaooip.jpg" alt=""> -->
+                
+                <div class="card-body">
+                    <h5 class="card-title">Log in</h5>
+                    <form class="validated-form" action="/login" method="POST" novalidate>
+                        <div class="mb-3">
+                            <label class="form-label" for="username">Username:</label>
+                            <input class="form-control" type="text" name="username" id="username" required>
+                        </div>
+                      
+                        <div class="mb-3">
+                            <label class="form-label" for="password">Password:</label>
+                            <input class="form-control" type="password" name="password" id="password" required>
+                        </div>
+                        <button class="btn btn-success">Log in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!--
+<form class="validated-form" action="/login" method="POST" novalidate>
+    <div class="mb-3">
+        <label class="form-label" for="username">Username:</label>
+        <input class="form-control" type="text" name="username" id="username" required>
+    </div>
+  
+    <div class="mb-3">
+        <label class="form-label" for="password">Password:</label>
+        <input class="form-control" type="password" name="password" id="password" required>
+    </div>
+    <button class="btn btn-success">Log in</button>
+</form>
+-->
